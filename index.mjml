@@ -1,0 +1,734 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .gold-text {
+                color: #b29131;
+                font-weight: bold;
+            }
+            .black-link {
+                color: #373a36;
+            }
+            .black-link:hover {
+                color: #373a36;
+            }
+            .blue-link {
+                color: #15c; 
+            }
+            .blue-link:hover {
+                color: #15c;
+            }
+            .red-link {
+                color: #e02a26;
+            }
+            .red-link:hover {
+                color: #e02a26;
+            }
+            .white-link {
+                color: #cccccc;
+            }
+            .white-link:hover {
+                color: #cccccc;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .icons-size {
+                max-width: 200px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#ffffff">
+        <mj-wrapper
+            background-color="#ffffff">
+            
+            <mj-raw>
+                <!-- HEADER -->
+            </mj-raw>
+            <mj-section>
+                <mj-column width="50%">
+                    <mj-image 
+                        src="https://i.ibb.co/jGW1pGg/fuel-rewards-red.png" 
+                        alt="fuel rewards logo"
+                        width="200px" 
+                        align="left"
+                        padding-left="20px"
+                        href="https://www.fuelrewards.com/fuelrewards/login-signup.html" 
+                    />
+                </mj-column>
+                <mj-column padding="0" width="30%">
+                    <mj-text
+                        color="#373a36"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="12px"
+                        line-height="17px"
+                        align="right"
+                        padding="0">
+                        Hi, Diana!<br>
+                        You have <span class="gold-text">Gold Status</span>.<br>
+                        Alt ID: <span class="gold-text">4073893183</span><br>
+                        <a class="black-link" href="https://www.fuelrewards.com/fuelrewards/login-signup.html">Access your account</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="20%">
+                    <mj-image
+                        src="https://i.ibb.co/HCZbK18/shell-logo.png"
+                        alt="shell logo"
+                        width="42px" 
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- SAVINGS TEXT -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column 
+                    width="33.33%"
+                    background-color="#e6e7e8"
+                    border-right="1px solid #adaab7">
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        align="center"
+                        padding="18px 0 5px">
+                        Lifetime savings:
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        font-weight="900"
+                        align="center"
+                        padding="0 0 18px">
+                        $76.51
+                    </mj-text>
+                </mj-column>
+                <mj-column 
+                    width="33.33%"
+                    background-color="#e6e7e8"
+                    border-right="1px solid #adaab7">
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        align="center"
+                        padding="18px 0 5px">
+                        Saving on every fill-up:
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        font-weight="900"
+                        align="center"
+                        padding="0 0 18px">
+                        $0.05/gal*
+                    </mj-text>
+                </mj-column>
+                <mj-column 
+                    width="33.33%"
+                    background-color="#e6e7e8">
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        align="center"
+                        padding="18px 0 5px">
+                        For your next fill-up:
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="16px"
+                        font-weight="900"
+                        align="center"
+                        padding="0 0 18px">
+                        $0.05/gal*
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- V-POWER IMAGE -->
+            </mj-raw>
+            <mj-section padding="7px 0">
+                <mj-column>
+                    <mj-image 
+                        src="https://i.ibb.co/XWSdXtM/shell-v-power.png" 
+                        alt="shell v-power nitro premium gasoline"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- WELCOME TEXT -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="18px"
+                        align="center"
+                        padding="8px 0 16px">
+                        Welcome to Shell
+                    </mj-text>
+                    <mj-text
+                        color="#e02a26"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="22px"
+                        font-weight="600"
+                        align="center"
+                        padding="5px 0 0">
+                        Diana, here is your receipt
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- ADDRESS & DATE TEXT -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column width="38%">
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        91 W STATE ROUTE 436<br>
+                        ALTAMONTE SPRINGS<br>
+                        FL 32714-4206<br>
+                        57542484265
+                    </mj-text>
+                </mj-column>
+                <mj-column width="38%">
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="right"
+                        padding="0">
+                        11-29-2022<br>
+                        09:39:00
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section padding="5px 0">
+                <mj-column width="86%">
+                    <mj-divider 
+                        border-color="#ededed" 
+                        border-width="1px"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- FUEL TYPE TEXT -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        PUMP #1
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        Fuel Type<br>
+                        Gallons<br>
+                        Price/Gal<br>
+                        Fuel Total<br>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="right"
+                        padding="0">
+                        <br>
+                        UNL-REG,Se <br>
+                        14.232<br>
+                        $3.28<br>
+                        $46.67<br>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section padding="35px 0 0">
+                <mj-column>
+                    <mj-divider 
+                        border-color="#ededed" 
+                        border-width="1px"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- TOTAL & TAX TEXT -->
+            </mj-raw>
+            <mj-section padding="15px 0 0">
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        Subtotal<br>
+                        Fuel Discount<br>
+                        Tax
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        Total
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="right"
+                        padding="0">
+                        $46.67<br>
+                        -$2.85<br>
+                        $0.00
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="right"
+                        padding="0">
+                        $43.82
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            
+            <mj-raw>
+                <!-- PAYMENT DETAILS TITLE -->
+            </mj-raw>
+            <mj-section padding="30px 0 0">
+                <mj-column>
+                    <mj-text
+                            color="#000000"
+                            font-family="Arial,Helvetica,sans-serif"
+                            font-size="14px"
+                            font-weight="600"
+                            line-height="18px"
+                            align="left"
+                            padding="0">
+                            Payment Details
+                        </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section padding="15px 0 0">
+                <mj-column>
+                    <mj-divider 
+                        border-color="#ededed" 
+                        border-width="1px"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- PAYMENT DETAILS TEXT -->
+            </mj-raw>
+            <mj-section padding="15px 0 0">
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        Wex<br>
+                        XXXX XX XXX264 8<br>
+                        Swiped
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="20px 0 0">
+                        Amount Paid: $43.82<br>
+                        Card Auth#: 478418<br>
+                        Odometer#: 73330<br>
+                        Vehicle#: 54965<br>
+                        Invoice#: 875142<br>
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- YOUR REWARDS TITLE -->
+            </mj-raw>
+            <mj-section padding="30px 0 0">
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        Your Rewards
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section padding="15px 0 0">
+                <mj-column>
+                    <mj-divider 
+                        border-color="#ededed" 
+                        border-width="1px"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- PAYMENT DETAILS TEXT -->
+            </mj-raw>
+            <mj-section padding="35px 0 0">
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="0">
+                        TOTAL SAVED $2.85<br>
+                        --------------------<br>
+                        Fuel Rewards program<br>
+                        Gallon limits vary<br>
+                        Fuel Saving: $2.85
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        line-height="18px"
+                        align="left"
+                        padding="20px 0 0">
+                        View <a class="blue-link" href="https://www.fuelrewards.com/">fuelrewards.com<br></a>  
+                        or Fuel Rewards App
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- ACCESS YOUR ACCOUNT TEXT -->
+            </mj-raw>
+            <mj-section padding="30px 0 0">
+                <mj-column>
+                    <mj-text
+                        color="#e02a26"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="14px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="right"
+                        padding="0">
+                        <a class="red-link" href="https://www.fuelrewards.com/fuelrewards/login-signup.html">Access your account</a> 
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- THANKS TEXT -->
+            </mj-raw>
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        color="#000000"
+                        font-family="Arial,Helvetica,sans-serif"
+                        font-size="18px"
+                        align="center"
+                        padding="16px 0">
+                        Thanks for shopping at Shell
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- CARD IMAGE SECTION -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column width="20%" background-color="#efefef" padding="0">
+                    <mj-image 
+                        src="https://i.ibb.co/rkvtyKn/shell-red-card.png" 
+                        alt="shell red card" 
+                        width="62px"
+                        padding="30.5px 0"/>
+                </mj-column>
+                <mj-column width="80%" background-color="#efefef" padding="0">
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="18px"
+                        font-weight="600"
+                        align="left"
+                        padding="18px 0 0">
+                        Link. Swipe. Save.
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="16px"
+                        align="left"
+                        padding="10px 0 0">
+                        Save time and money by linking your payment card to Rewards®.
+                    </mj-text>
+                    <mj-text
+                        color="#e02a26"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="16px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="left"
+                        padding="15px 0">
+                        <a class="red-link" href="https://www.fuelrewards.com/fuelrewards/login-signup.html?nextUrl=/fuelrewards/manage-cards">Link & Save</a> 
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- APP IMAGE SECTION -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column width="20%" background-color="#efefef" padding="0">
+                    <mj-image 
+                        src="https://i.ibb.co/JzqK5dp/shell-mobile-app.jpg" 
+                        alt="shell red card" 
+                        width="40px"
+                        padding="15px 0 23px"/>
+                </mj-column>
+                <mj-column width="80%" background-color="#efefef" padding="0">
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="18px"
+                        font-weight="600"
+                        align="left"
+                        padding="18px 0 0">
+                        Go Mobile with the Shell app.
+                    </mj-text>
+                    <mj-text
+                        color="#000000"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="16px"
+                        align="left"
+                        padding="10px 0 0">
+                        A faster way to pay and save from the inside of your car!
+                    </mj-text>
+                    <mj-text
+                        color="#e02a26"
+                        font-family="Tahoma,Arial,Helvetica,sans-serif"
+                        font-size="16px"
+                        font-weight="600"
+                        line-height="18px"
+                        align="left"
+                        padding="15px 0">
+                        <a class="red-link" href="https://www.shell.us/motorist/shell-app.html?ko_click_id=ko_khha242pkx4xob0zc">Download App</a> 
+                    </mj-text> 
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-divider 
+                        border-color="#ffcd00" 
+                        border-width="4px"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- SOCIAL MEDIA ICONS -->
+            </mj-raw>
+            <mj-section background-color="#53565a" padding="0">
+                <mj-group css-class="icons-size" >
+                    <mj-column padding="0">
+                        <mj-image 
+                            src="https://i.ibb.co/ZGBf3n3/facebook-icon.jpg" 
+                            alt="facebook"
+                            width="28px"
+                            padding="20px 0"
+                            href="https://www.facebook.com/fuelrewards" 
+                        />
+                    </mj-column>
+                    <mj-column padding="0">
+                        <mj-image 
+                            src="https://i.ibb.co/zGTyHmz/twitter-icon.jpg" 
+                            alt="twitter"
+                            width="28px"
+                            padding="20px 0"
+                            href="https://twitter.com/FuelRewards"
+                        />
+                    </mj-column>
+                    <mj-column padding="0">
+                        <mj-image 
+                            src="https://i.ibb.co/L5z7ZjB/pinterest-icon.jpg" 
+                            alt="pinterest"
+                            width="28px"
+                            padding="20px 0"
+                            href="https://www.pinterest.com/fuelrewards/" 
+                        />
+                    </mj-column>
+                    <mj-column padding="0">
+                        <mj-image 
+                            src="https://i.ibb.co/h21dmGj/instagram-icon.jpg" 
+                            alt="instagram"
+                            width="28px"
+                            padding="20px 0"
+                            href="https://www.instagram.com/fuelrewards/"
+                        />
+                    </mj-column>
+                    <mj-column padding="0">
+                        <mj-image 
+                            src="https://i.ibb.co/ZzY4JT9/youtube-icon.jpg" 
+                            alt="youtube"
+                            width="28px"
+                            padding="20px 0"
+                            href="https://www.youtube.com/user/FuelRewardsNetwork/videos" 
+                        />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            
+            <mj-raw>
+                <!-- DIVIDER -->
+            </mj-raw>
+            <mj-section background-color="#53565a" padding="0 40px 30px">
+                <mj-column>
+                    <mj-divider 
+                        border-color="#c7c9c7" 
+                        border-width="1px"
+                        padding="0"
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- FOOTER -->
+            </mj-raw>
+            <mj-section background-color="#53565a" padding="0">
+                <mj-column width="55%">
+                    <mj-image 
+                        src="https://i.ibb.co/LSJjcSL/fuel-rewards-white.jpg" 
+                        alt="fuel rewards logo"
+                        width="164px" 
+                        align="left"
+                        padding="0 40px"
+                        href="https://www.fuelrewards.com/fuelrewards/login-signup.html" 
+                    />
+                </mj-column>
+                <mj-column width="30%" padding="0" >
+                    <mj-text
+                        color="#cccccc"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="11px"
+                        line-height="17px"
+                        align="center"
+                        padding="0">
+                        Shell is the national fuel provider<br>
+                        for the Fuel Rewards® program.<br>
+                        Participation varies by market.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="15%" padding="0 30px 0 0">
+                    <mj-image
+                        src="https://i.ibb.co/HCZbK18/shell-logo.png"
+                        alt="shell logo"
+                        width="45px"
+                        padding="0" 
+                    />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- FOOTER ADDRESS & LINKS TEXT -->
+            </mj-raw>
+            <mj-section background-color="#53565a" padding="0">
+                <mj-column width="50%">
+                    <mj-text
+                        color="#cccccc"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="11px"
+                        line-height="17px"
+                        align="left"
+                        padding="0 0 35px 40px">
+                        14241 Dallas Parkway, Suite 400<br>
+                        Dallas, TX 75254<br>
+                        Copyright ©2019-2020 Excentus<br>
+                        All rights reserved.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-text
+                        color="#cccccc"
+                        font-family="Tahoma, Arial, Helvetica, sans-serif"
+                        font-size="14px"
+                        line-height="17px"
+                        align="right"
+                        padding="25px 40px 0 0">
+                            <a class="white-link" href="https://www.fuelrewards.com/fuelrewards/terms-conditions?utm_source=Shell&utm_medium=email&utm_campaign=ereceipts">Terms</a>  | <a class="white-link" href="https://www.fuelrewards.com/fuelrewards/privacy-policy?utm_source=Shell&utm_medium=email&utm_campaign=ereceipts">Privacy</a> | <a class="white-link" href="https://www.fuelrewards.com/fuelrewards/contact.html?utm_source=Shell&utm_medium=email&utm_campaign=ereceipts">Support</a> | <a class="white-link" href="https://www.fuelrewards.com/fuelrewards/login-signup.html?nextUrl=/fuelrewards/account-preferences.html">Unsubscribe</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
